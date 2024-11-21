@@ -21,7 +21,7 @@ redeem_codes_collection = db['redeem_codes0']
 
 # Bot Configuration
 TELEGRAM_BOT_TOKEN = '7643539176:AAGskm6l4Wr1NmxUQkEud_i3kmPS0BkpQvA'
-ALLOWED_USER_IDS = [1929695820, 1234567890, 9876543210] # Replace with your admin user ID
+ALLOWED_USER_IDS = [1821595166, 2106511552, 9876543210] # Replace with your admin user ID
 
 async def help_command(update: Update, context: CallbackContext):
     user_id = update.effective_user.id
